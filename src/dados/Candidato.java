@@ -28,6 +28,7 @@ public abstract class Candidato {
     public Localidade getLocalidade(){
         return localidade;
     }
+    
     public int getNumero() {
         return numero;
     }
