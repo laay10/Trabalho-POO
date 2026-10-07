@@ -3,6 +3,7 @@ package aplicacao;
 import dados.*;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -26,12 +27,15 @@ public class AppACMEPolling {
 
     public void executar() {
 
+        File arquivoEntrada = resolverArquivoEntrada();
+        File arquivoSaida = resolverArquivoSaida(arquivoEntrada);
+
         try (
             BufferedReader reader =
-                    new BufferedReader(new FileReader("entrada.txt"));
+                    new BufferedReader(new FileReader(arquivoEntrada));
 
             BufferedWriter writer =
-                    new BufferedWriter(new FileWriter("saida.txt"))
+                    new BufferedWriter(new FileWriter(arquivoSaida))
         ) {
 
             // 1 - Partidos
@@ -73,6 +77,33 @@ public class AppACMEPolling {
     }
 
 
+    private File resolverArquivoEntrada() {
+        String[] caminhos = {
+            "src/aplicacao/entrada.txt",
+            "entrada.txt"
+        };
+
+        for (String caminho : caminhos) {
+            File arquivo = new File(caminho);
+            if (arquivo.exists()) {
+                return arquivo;
+            }
+        }
+
+        return new File("entrada.txt");
+    }
+
+    private File resolverArquivoSaida(File arquivoEntrada) {
+        if (arquivoEntrada.getParentFile() != null) {
+            return new File(
+                    arquivoEntrada.getParentFile(),
+                    "saida.txt"
+            );
+        }
+
+        return new File("saida.txt");
+    }
+
     // =========================================================
     // MÉTODO PARA ESCREVER NO TXT
     // =========================================================
@@ -90,9 +121,7 @@ public class AppACMEPolling {
     // 1 - CADASTRAR PARTIDOS
     // =========================================================
 
-    private void cadastrarPartidos(
-            BufferedReader reader,
-            BufferedWriter writer) throws IOException {
+    private void cadastrarPartidos(BufferedReader reader, BufferedWriter writer) throws IOException {
 
         String linha = reader.readLine();
 
