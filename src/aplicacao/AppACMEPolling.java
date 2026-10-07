@@ -26,15 +26,15 @@ public class AppACMEPolling {
     // Método principal para executar o programa
     public void executar() {
 
-        File arquivoEntrada = resolverArquivoEntrada();
-        File arquivoSaida = resolverArquivoSaida(arquivoEntrada);
+        File pollingIn = resolverArquivoPollingIn();
+        File pollingOut = resolverArquivoPollingOut(pollingIn);
 
         try (
             BufferedReader reader =
-                    new BufferedReader(new FileReader(arquivoEntrada));
+                    new BufferedReader(new FileReader(pollingIn));
 
             BufferedWriter writer =
-                    new BufferedWriter(new FileWriter(arquivoSaida))
+                    new BufferedWriter(new FileWriter(pollingOut))
         ) {
 
             // 1 - Partidos
@@ -102,10 +102,10 @@ public class AppACMEPolling {
 
     // Método para resolver o arquivo de entrada, verificando se ele existe em diferentes caminhos
 
-    private File resolverArquivoEntrada() {
+    private File resolverArquivoPollingIn() {
         String[] caminhos = {
-            "src/aplicacao/entrada.txt",
-            "entrada.txt"
+            "src/aplicacao/pollingin.txt",
+            "pollingin.txt"
         };
 
         for (String caminho : caminhos) {
@@ -115,19 +115,19 @@ public class AppACMEPolling {
             }
         }
 
-        return new File("entrada.txt");
+        return new File("pollingin.txt");
     }
     // Método para resolver o arquivo de saída, criando-o no mesmo diretório do arquivo de entrada
 
-    private File resolverArquivoSaida(File arquivoEntrada) {
-        if (arquivoEntrada.getParentFile() != null) {
+    private File resolverArquivoPollingOut(File pollingIn) {
+        if (pollingIn.getParentFile() != null) {
             return new File(
-                    arquivoEntrada.getParentFile(),
-                    "saida.txt"
+                    pollingIn.getParentFile(),
+                    "pollingout.txt"
             );
         }
 
-        return new File("saida.txt");
+        return new File("pollingout.txt");
     }
 
 }
