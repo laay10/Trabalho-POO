@@ -1,0 +1,43 @@
+1: 12 - Partido do Papaleguas
+1: 67 - Partido do Coiote
+1: 78 - Partido do Frajola
+1: 45 - Partido do Pernalonga
+1: ERRO - partido repetido.
+2: 99999-99 - Rio Grande do Sul - 8526673 - Estadual
+2: 00000-00 - Brasil - 158700000 - Nacional
+2: 33333-33 - Bahia - 11321939 - Estadual
+2: 22222-22 - Sao Paulo - 78105333 - Estadual
+2: ERRO - localidade repetida.
+3: 12 - Presidente Patolino - Partido do Papaleguas - 120000.0
+3: 67 - Presidente Gaguinho - Partido do Coiote - 670000.0
+3: ERRO - candidato repetido.
+3: 78 - Presidente Hortelino - Partido do Frajola - 780000.0
+3: ERRO - localidade incorreta.
+4: 167 - Governador Eufrazino - Partido do Papaleguas - Graduacao - Rio Grande do Sul
+4: 674 - Governador Marvin - Partido do Coiote - Mestrado - Rio Grande do Sul
+4: 785 - Governador Ligeirinho - Partido do Frajola - Doutorado - Bahia
+4: ERRO - partido incorreto.
+4: 456 - Governador Frangolino - Partido do Pernalonga - Especializacao - Bahia
+5: 11111 - 15 - Governador Marvin - Rio Grande do Sul
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: ERRO - candidato incorreto.
+5: 1111 - 9 - Presidente Patolino - Brasil
+5: 2222 - 10 - Presidente Gaguinho - Brasil
+5: 3333 - 11 - Presidente Gaguinho - Brasil
+5: 4444 - 12 - Governador Eufrazino - Rio Grande do Sul
+5: 5555 - 13 - Governador Ligeirinho - Bahia
+5: 6666 - 14 - Governador Ligeirinho - Bahia
+5: 7777 - 15 - Governador Ligeirinho - Bahia
+5: 8888 - 16 - Presidente Hortelino - Brasil
+5: 9999 - 17 - Governador Marvin - Rio Grande do Sul
+6: 78 - Presidente Hortelino - Partido do Frajola - Brasil - 780000.0
+7: 12 - Presidente Patolino - Partido do Papaleguas - Brasil - 120000.0
+7: 167 - Governador Eufrazino - Partido do Papaleguas - Rio Grande do Sul - Graduacao
+8: 674 - Governador Marvin - 2
+9: 67 - Partido do Coiote - 4
+10: 67 - Partido do Coiote - 2

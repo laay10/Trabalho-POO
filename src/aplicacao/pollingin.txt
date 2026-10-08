@@ -1,0 +1,156 @@
+12
+Partido do Papaleguas
+67
+Partido do Coiote
+78
+Partido do Frajola
+45
+Partido do Pernalonga
+67
+Partido do Coiote
+-1
+99999-99
+Rio Grande do Sul
+8526673
+ESTADUAL
+00000-00
+Brasil
+158700000
+NACIONAL
+33333-33
+Bahia
+11321939
+ESTADUAL
+22222-22
+Sao Paulo
+78105333
+ESTADUAL
+33333-33
+Baia
+11111111
+ESTADUAL
+-1
+12
+Presidente Patolino
+12
+00000-00
+120000
+67
+Presidente Gaguinho
+67
+00000-00
+670000
+12
+Presidente Piu-Piu
+12
+33333-33
+120000
+78
+Presidente Hortelino
+78
+00000-00
+780000
+98
+Presidente Taz
+12
+98765-43
+780000
+-1
+167
+Governador Eufrazino
+12
+99999-99
+Graduacao
+674
+Governador Marvin
+67
+99999-99
+Mestrado
+785
+Governador Ligeirinho
+78
+33333-33
+Doutorado
+777
+Governador Eufrazino
+777
+99999-99
+Mestrado
+456
+Governador Frangolino
+45
+33333-33
+Especializacao
+-1
+11111
+15
+674
+99999-99
+22222
+08
+777
+99999-99
+33333
+08
+777
+99999-99
+44444
+08
+777
+99999-99
+55555
+08
+777
+99999-99
+66666
+08
+777
+99999-99
+77777
+08
+777
+99999-99
+88888
+08
+777
+99999-99
+1111
+9
+12
+00000-00
+2222
+10
+67
+00000-00
+3333
+11
+67
+00000-00
+4444
+12
+167
+99999-99
+5555
+13
+785
+33333-33
+6666
+14
+785
+33333-33
+7777
+15
+785
+33333-33
+8888
+16
+78
+00000-00
+9999
+17
+674
+99999-99
+-1
+78
+12
+99999-99
